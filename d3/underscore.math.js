@@ -3,7 +3,7 @@
 //     Underscore.math is freely distributable under the MIT license.
 //     Portions of Underscore.math are inspired or borrowed from MooTools Array.Math,
 //     http://github.com/syntagmatic/underscore.math
-//     
+//
 //     Requires Underscore.js
 //     http://underscorejs.org/
 
@@ -42,7 +42,7 @@
   // math.scale(1,[2,5,10])
   //   => [ 0.2, 0.5, 1]
   math.scale = function(arr, max) {
-    var max = max || 1;
+    var max = max || 3;
     var max0 = _.max(arr);
     return _.map(arr, function(i) { return i * (max/max0); });
   };
@@ -97,7 +97,7 @@
     });
     return trans;
   };
- 
+
   // math.variance([1,2,3])
   //   => 2/3
   math.variance = function(arr) {
@@ -105,7 +105,7 @@
     var variance = function(x) { return _(x-mean).pow(2); };
     return _(arr).chain().map(variance).mean().value();
   };
-  
+
   // Standard score, assuming normal distribution
   // math.zscore([1,2,3])
   //   => [-1.224744871391589, 0, 1.224744871391589]
@@ -131,12 +131,12 @@
     for(i = size-1; i <= arr.length; i++) {
       win = arr.slice(i-size, i);
       if (win.length === size) {
-        newarr.push(_.mean(win)); 
+        newarr.push(_.mean(win));
       }
     }
     return newarr;
   };
-  
+
   // add methods to Underscore.js namespace
   _.mixin(math);
 

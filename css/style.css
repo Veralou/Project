@@ -22,7 +22,7 @@ ul {
 
 #graph{
   height: 900px;
-  margin: 12px 0;
+  margin: 60px 0;
 }
 p {
   width: 560px;
@@ -36,7 +36,7 @@ pre {
 }
 h1 small {
   font-weight: normal;
-  font-size: 0.5em;
+  font-size: 1.5em;
 }
 h3 {
   margin-top: 40px;

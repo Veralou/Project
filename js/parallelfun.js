@@ -2,8 +2,8 @@
 
   // color scale for zscores
   var zcolorscale = d3.scale.linear()
-                  .domain([0, 0.01, 0.05, 0.08, 0.1])
-                  .range(["#A0FF1F", "#E8781A", "#FF2A9A", "#331AE8", "#32FBFF"])
+                  .domain(["0", "1", "2", "5"])
+                  .range(["#A0FF1F", "#E8781A", "#FF2A9A", "#331AE8"])
                   .interpolate(d3.interpolateLab);
 
 
@@ -21,7 +21,7 @@
       .brushMode("1D-axes")  // enable brushing
       .interactive()  // command line mode
 
-    change_color("Percentage");
+    change_color("Number of Children");
 
     // click label to activate coloring
     pcz.svg.selectAll(".dimension")
