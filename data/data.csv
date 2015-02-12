@@ -1,0 +1,55 @@
+Number of Children,Marital Status,Number of People,Percentage
+No children,married,41,3.52
+1 child,married,81,6.95
+2 children,married,218,18.70
+3 children,married,108,9.26
+4 children,married,33,2.83
+5 children,married,7,0.60
+6 children,married,4,0.34
+7 children,married,0,0.00
+8 or more children,married,1,0.09
+No children,living together,82,7.03
+1 child,living together,46,3.95
+2 children,living together,54,4.63
+3 children,living together,21,1.80
+4 children,living together,9,0.77
+5 children,living together,0,0.00
+6 children,living together,2,0.17
+7 children,living together,0,0.00
+8 or more children,living together,0,0.00
+No children,divorced,4,0.34
+1 child,divorced,11,0.94
+2 children,divorced,39,3.34
+3 children,divorced,13,1.11
+4 children,divorced,6,0.51
+5 children,divorced,0,0.00
+6 children,divorced,0,0.00
+7 children,divorced,1,0.09
+8 or more children,divorced,0,0.00
+No children,separated,1,0.09
+1 child,separated,14,1.20
+2 children,separated,14,1.20
+3 children,separated,4,0.34
+4 children,separated,1,0.09
+5 children,separated,0,0.00
+6 children,separated,0,0.00
+7 children,separated,0,0.00
+8 or more children,separated,0,0.00
+No children,single,216,18.52
+1 child,single,36,3.09
+2 children,single,30,2.57
+3 children,single,7,0.60
+4 children,single,1,0.09
+5 children,single,0,0.00
+6 children,single,0,0.00
+7 children,single,1,0.09
+8 or more children,single,0,0.00
+No children,widowed,6,0.51
+1 child,widowed,14,1.20
+2 children,widowed,30,2.57
+3 children,widowed,8,0.69
+4 children,widowed,1,0.09
+5 children,widowed,1,0.09
+6 children,widowed,0,0.00
+7 children,widowed,0,0.00
+8 or more children,widowed,0,0.00
