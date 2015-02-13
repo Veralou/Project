@@ -13,13 +13,56 @@
         <script type="text/javascript" src="d3/underscore.math.js"></script>
         <link rel="stylesheet" type="text/css" href="css/style.css">
 
-        <div><h1>Vera's First Programming Project in D3</h1></div>
-    </head>
-    <body>
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css">
 
-    <div>sljgö</div>
+        <div><h1>Vera's First Programming Project in D3</h1></div>
+        <div><h2>Sweden: how is the marital status connected to the number of children?</h2></div>
+
+        </head>
+        <body>
+        <div>Data source: <a href="www.worldvaluessurvey.org">World Value Survey</a></div>
+        <div></div>
+
+        <hr color="grey"/>
+        <hr color="grey"/>
+        <div><h3>Analytical trail with WVS visualisation tools</h3>
+        <p>Step 1: Choose the time period.</p>
+        <p>Step 2: Select the countries to focus on. </p>
+        <p>Step 3: Select the survey variables 'how many children do you have'.</p>
+        </div>
+        <hr color="grey"/>
+
+
+        <div>
+            <p>The image shows the corresponding data table that contains data transformations such as summing, mean, standard deviation and percentages. The bar chart contains visual mappings such as color to number of children and height to the number of respondents in percentages. The data types are categorical and numerical.
+            </p>
+            <img src= "image/number of children selected.png"></img>
+        </div>
+        <hr color="grey"/>
+
+        <div>
+            <p>Step 4: Choose the crossing variable 'marital status'.</p>
+            <p>Coosing the crossing variable shows a data table for each possible combination of marital status and children. The data can be transformed into percentages when selected.</p>
+            <img src= "image/table with results.png"></img>
+            <hr color="grey"/>
+             <p>In the bar chart, the color is mapped to the marital status, the height of the bar to the number of respondents and the number of children to the horizontal positioning of the bar.</p>
+            <img src= "image/bar chart with results.png"></img>
+        </div>
+        <hr color="grey"/>
+
+        <div><h3>Improvement of the WVS visualization tools</h3></div>
+        <div>
+            <h5>Adding view transformations and modifying the visual structures</h5>
+            <p>The data display in parallel coordinates allows to filter the data according to different variables eg. '2 children' and 'divorced' and gives an approximate number of respondents. The user can move filters around, enlarge them and thereby focus on different categorical data. The data view transformations provided by WVS were limited, no zooming or filtering was possible and the barcharts were not big enough to identify the differences.</p>
+        </div>
+
+        <hr color="grey"/>
 
         <div id="graph" class="parcoords"></div>
+        <hr color="grey"/>
+        <img src= "image/VisPipeline.png"></img>
+
         <script type="text/javascript" src="js/parallelfun.js"></script>
     </body>
 </html>

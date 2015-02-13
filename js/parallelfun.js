@@ -2,8 +2,8 @@
 
   // color scale for zscores
   var zcolorscale = d3.scale.linear()
-                  .domain(["0", "1", "2", "5"])
-                  .range(["#A0FF1F", "#E8781A", "#FF2A9A", "#331AE8"])
+                  .domain(["0", "1", "2", "3", "4", "5"])
+                  .range(["#E1FF19", "#E8781A", "#FF2A9A", "#331AE8"])
                   .interpolate(d3.interpolateLab);
 
 
